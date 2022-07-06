@@ -22,7 +22,11 @@ Video: https://youtu.be/FEvvr0DhANM
 Runs the app in the development mode.\
 Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
 
-Recuerda para que el proyecto te sea funcional instalar las dependencias y paquetes de node del proyecto :D.
+Recuerda que debes instalar las dependencias y paquetes de node del proyecto.
 ---------------
 
+<div align="center" >
 
+<img src="https://github.com/isinicolle/NodeJsTwilio-TwillioParaTodos/blob/main/public/assets/img/img-demo.png" height="250px">
+
+</div>
