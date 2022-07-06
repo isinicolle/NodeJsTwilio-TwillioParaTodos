@@ -11,7 +11,7 @@ Video: https://youtu.be/FEvvr0DhANM
 ### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:8080) to view it in your browser.
+Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
 
 Recuerda para que el proyecto te sea funcional instalar las dependencias y paquetes de node del proyecto :D.
 
