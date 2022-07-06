@@ -1,5 +1,7 @@
-const accountSid = 'ACa9ad7f101de7a5aaaa9756def6a74497' ;
-const authToken = '09fb6a1962deeaf538dba9239cfa7581' ;
+require('dotenv').config();
+
+const accountSid = process.env.ACCOUNT_SID;
+const authToken = process.env.AUTH_TOKEN;
 const client = require('twilio')(accountSid, authToken); 
  
 
@@ -10,7 +12,7 @@ const sendMessage = async (req, res) => {
 
         const response = await client.messages.create({
            body: `Hola! ${message} gracias por comunicarte conmigo :D. Este es el proyecto personal de Isis, usando twillio!!! 🤩`, 
-           from: 'whatsapp:+14155238886',     
+           from: process.env.TWILLIO_NUMBER,     
            to: `whatsapp:${number.replace(/ /g, "")}`
         });
 
