@@ -46,6 +46,7 @@
                 showStatus(statusTwo, true);
 
                 setTimeout(() => {
+                    // Ocultamos aviso
                     showStatus(statusTwo, false);
                 }, 3500);
             }
