@@ -19,7 +19,7 @@
 
            
             const number = form.querySelector('input[name="number"]').value;
-            const message = form.querySelector('textarea[name="message"]').value;
+            const message = form.querySelector('input[name="message"]').value;
 
             
             const data = JSON.stringify({ number, message });

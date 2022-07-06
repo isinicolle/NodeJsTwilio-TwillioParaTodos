@@ -49,7 +49,9 @@
                                     <path d="M11 15C11 16.1046 10.1046 17 9 17C7.89543 17 7 16.1046 7 15C7 13.8954 7.89543 13 9 13C10.1046 13 11 13.8954 11 15Z" fill="currentColor"></path>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" fill="currentColor"></path>
                                 </svg></div>
-                            <form method="post">
+                            <form id="myform" method="post"> <p id="status-send-1" class="alert alert-success text-center mt-4">Mensaje enviado correctamente</p>
+        <p id="status-send-2" class="alert alert-danger text-center mt-4">Error al enviar mensaje</p>
+
                                 <div class="mb-3"><input class="form-control" type="email" name="message" placeholder="Tu nombre" required=""></div>
                                 <div class="mb-3"><input class="form-control" type="password" name="number" placeholder="+504 12345678" required=""></div>
                                 <div class="mb-3"><button class="btn btn-success shadow d-block w-100" id="btnwsp" type="submit">Whatsapp</button></div>
