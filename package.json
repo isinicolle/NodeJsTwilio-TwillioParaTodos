@@ -1,0 +1,26 @@
+{
+  "name": "nodejstwillio-twillioparatodos",
+  "version": "1.0.0",
+  "description": "Aplicación sencilla , para la experiencia del usuario en probar lo que brinda los servicios de twillio.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isinicolle/NodeJsTwillio-TwillioParaTodos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isinicolle/NodeJsTwillio-TwillioParaTodos/issues"
+  },
+  "homepage": "https://github.com/isinicolle/NodeJsTwillio-TwillioParaTodos#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "twilio": "^3.78.0"
+  }
+}
