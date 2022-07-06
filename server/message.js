@@ -12,11 +12,11 @@ const sendMessage = async (req, res) => {
         
         const { number, message } = req.body;
 
-        const response = await client.messages.create({
-           messagingServiceSid: process.env.MESSAGING_SERVICE_SID,
-           body: `Hola! ${message} gracias por comunicarte conmigo :D. Este es el proyecto personal de Isis, usando twillio!!! 🤩`, 
-           from: process.env.TWILLIO_NUMBER,     
+        const response = await client.messages.create({ 
+           body: `¡Hola! ${message} Gracias por probar mi mini-proyecto de aprendizaje usando Twilio🤩 desde WSP`, 
+           from: process.env.TWILLIO_NUMBER_WHATSAPP,     
            to: `whatsapp:${number.replace(/ /g, "")}`
+        
         });
 
         console.log(response);
@@ -43,7 +43,7 @@ const sendMessage = async (req, res) => {
 
         const response = await client.messages.create({
            messagingServiceSid: process.env.MESSAGING_SERVICE_SID,
-           body: `Hola! ${message} gracias por comunicarte conmigo :D. Este es el proyecto personal de Isis, usando twillio!!! 🤩`,  
+           body: `¡Hola! ${message} Gracias por probar mi mini-proyecto de aprendizaje usando Twilio🤩 desde SMS`,  
            to: `${number.replace(/ /g, "")}`
         });
 
